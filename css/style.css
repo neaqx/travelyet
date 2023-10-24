@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser*/
 /* *{
@@ -8,9 +8,9 @@
     
 } */
 
-/* body{
-
-} */
+body{
+font-family: 'Inter', sans-serif;
+}
 
 /* Header Element (with Logo and a Navbar */
 header{
@@ -104,9 +104,6 @@ header .content .cont_box h1 {
 #logo{
     height: 170px;
     padding-bottom: 10px;
-    
-  
-
 }
 
 
