@@ -34,7 +34,7 @@ Code Institute Project Assessment 1 (PL:HTML/CSS)
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="/assets/logo/logo blue.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">project_title</h3>
@@ -42,14 +42,10 @@ Code Institute Project Assessment 1 (PL:HTML/CSS)
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/neaqx"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/neaqx/travelyet">View Demo</a>
   </p>
 </div>
 
@@ -96,10 +92,8 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* 
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![HTML][html.com]][html-url]
-* [![CSS][css.com]][css-url]
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
