@@ -95,10 +95,16 @@ header .content .cont_box{
     height: auto;
     color: white;
     padding: 30px;
+    margin-top:70px;
+    margin-left: auto;
+    
+    
 }
 
 header .content .cont_box h1 {
-   font-weight: 800;
+    font-size: 320%;
+    font-weight: 800;
+   
 }
 
 #logo{

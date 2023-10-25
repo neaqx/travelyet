@@ -34,10 +34,10 @@ Code Institute Project Assessment 1 (PL:HTML/CSS)
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="/assets/logo/logo blue.png" alt="Logo" width="80" height="80">
+    <img src="/assets/logo/logo blue.png" alt="Logo" width="200" height="200">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">travelyet.com</h3>
 
   <p align="center">
     project_description
