@@ -82,9 +82,9 @@ header .content::before{
     content: '';
     position:absolute;
     width: 100%;
-    height: 80%;
+    height: 100%;
     /* border: 1px solid black; */
-    background-image: url('/assets/images/womentravel2.jpg');
+    background-image: url('/assets/images/ocean.jpg');
     background: cover;
     border-radius: 10px;
     z-index: -1;
