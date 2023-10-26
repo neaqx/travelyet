@@ -34,7 +34,7 @@ Code Institute Project Assessment 1 (PL:HTML/CSS)
 <br />
 <div align="center">
   <a href="https://github.com/neaqx/travelyet">
-    <img src="/assets/logo/logo blue.png" alt="Logo" width="500" height="500">
+    <img src="/assets/logo/logo new.png" alt="Logo" width="500" height="500">
   </a>
 
 <h3 align="center">travelyet.com</h3>
@@ -72,7 +72,6 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 <!-- GETTING STARTED -->
 ## Table of Content
-
 
 ### Business strategy 
 
