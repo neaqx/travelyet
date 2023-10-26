@@ -213,7 +213,6 @@ main div{
 }
 
 .cards-1{
-    
     position: relative;
     bottom: 130px;
 }
@@ -284,7 +283,6 @@ div.offers {
     margin: auto;
     margin-top: 100px;
     margin-bottom: 100px;
-    
     justify-content: space-between;
     flex-wrap: 100px;
 }
