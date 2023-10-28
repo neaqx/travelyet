@@ -165,10 +165,6 @@ margin: auto;
     
 }
 
-main div{
-    width: 50%;
-    height: auto; 
-}
      
 .explaintext {
     width: 50%;
@@ -302,5 +298,18 @@ div span {
 
 /* Offer Cards */
 
-div.offers{
+.product-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+   
+    
+}
+
+.card{
+    border: 3px solid hotpink;
+    width: 40%;
+    padding: 30px;
+    justify-content: center;
 }
