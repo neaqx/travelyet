@@ -2,7 +2,7 @@
 
 /* Asterisk wildcard selector to override default styles added by the browser*/
 *{
-    margin-top: 5px;
+    /* margin: 5px; */
     padding: 0;
     box-sizing: border-box; 
     
@@ -157,12 +157,10 @@ header .content .cont_box button:hover{
 
 
 /* Main Content */
-
 main  {
 width: 95%;
 height: 100vh;
-margin: auto;
-    
+margin: auto;   
 }
 
 main img {
@@ -182,7 +180,6 @@ main img {
 .explaintext h1 {
     font-size: 320%;
     padding: auto;
-
 }
  
 .explaintext p {
@@ -245,18 +242,26 @@ main img {
 
 /* Destinations Card */
 div span {
-    font-size: 150%;
-    font-weight: 600;
-    color: #6359FF;
-    background-color: black;
-    border-radius: 100px;
-    width: 200px;
-    height: 200px;
-    top: 100px;
-    left: 250px;
-    
+    height: 30px;
+    width: 30px;
+    color:white;
+    background-color: #6359FF;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: larger;
+    font-weight: 600;  
+    text-align: center;
+    padding-top: 3px;
 }
 
+.progress h3{
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.progress p{
+    padding-bottom: 20px;
+}
 
 .inner-text{
    padding-top: 10%;
@@ -267,9 +272,11 @@ div span {
     width: 95%;
     padding: 50px;
     margin: auto;
-    display: flex;
-    background-color:#F1ECCE;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    background-color:#B5C9C3;
+    color: white;
     justify-content: space-between;
     border-radius: 10px;
     margin-top: 30px;
@@ -328,15 +335,32 @@ div span {
 
 /* Search Box Booking.com */
 .searchbox{
-    width: 100%;
-    height: 100%;
+    width: 95%;
+        
+    }
+   
+
+
+
+/* Conatact Us Section */
+.contactus{
+    width: 95%;
     padding: 50px;
-    display: flex;
+    margin: auto;
+    background-color: #B5C9C3;
+    color: white;
+    justify-content: space-between;
     border-radius: 10px;
     margin-top: 30px;
+    margin-bottom:100px;
     box-shadow: 6 0 0 6 rgba(0, 0, 0, 0.2);
 }
 
-
+/* Footer */
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: #6359FF;  
+}
 
 
