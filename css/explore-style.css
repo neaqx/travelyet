@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&display=swap');
+
+/* Asterisk wildcard selector to override default styles added by the browser*/
+* {
+    /* margin: 5px; */
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+   
+}
+
+/* Header Element (with Logo and a Navbar */
+header {
+    width: 95%;
+    margin-bottom: 0;
+    margin: auto;
+}
+
+header nav {
+    width: 100%;
+    height: 7%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+button {
+    background-color: #6359FF;
+    width: 40%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    transition: .3s linear;
+}
+
+button:hover {
+    background-color: #FF8C42;
+    border: #FF8C42;
+    transition: .3s linear;
+    transform: translateY(-5px);
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    padding: 3px 15px;
+}
+
+header nav ul li:nth-last-child(1) {
+    background-color: black;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+header nav ul li:nth-last-child(1) a {
+    color: white;
+}
+
+header nav ul li:nth-last-child(1):hover {
+    background-color: #6359FF;
+    color: white;
+    cursor: pointer
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+
+header nav .bi-list {
+    display: none;
+}
+
+
+#logo {
+    height: 100px;
+    width: auto;
+}
