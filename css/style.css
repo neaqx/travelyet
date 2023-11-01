@@ -323,6 +323,7 @@ div span {
     justify-content: center;
     box-shadow: 5px 5px 20px rgb(201, 201, 201);
     font-weight: 300;
+    border-radius: 20px;
 }
 
 .card img{
@@ -347,8 +348,6 @@ div span {
     flex-direction: column;
     text-align: center;
     }
-   
-
 
 
 /* Conatact Us Section */
@@ -368,12 +367,22 @@ div span {
 /* Footer */
 footer{
     width: 100%;
-    height: 100%;
+    height: 100%; 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;  
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .footer-items{
+    display: flex;
+    flex-direction: column;
     
+    text-align: center;
 }
 
+.company-name{
+    padding-bottom: 20px;
+}
+
+.fa-tiktok .fa-instagram {
+    margin:0;
+}
