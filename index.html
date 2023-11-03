@@ -30,18 +30,24 @@
   <body>
     <header>
       <!-- Navbar -->
+      <div>
       <nav>
         <a href="index.html"
           ><img src="/assets/logo/logo new.svg" alt="travelyet-logo" id="logo"
         /></a>
-        <ul>
+        <ul id="menulist">
           <li><a href="index.html">Home</a></li>
           <li><a href="destinations.html">Destinations</a></li>
-          <li><a href="contactus.html">Contact</a></li>
-          
+          <li><a href="contactus.html">Contact</a></li> 
         </ul>
-        <i class="bi bi-list"></i>
-      </nav>
+        <input type="checkbox" name="" id="check">
+        <label for="check">
+          <i class="bi bi-list""></i>
+        </label>
+       </nav>
+      </div>
+
+
 
       <!-- Text -->
       <div class="content">
@@ -206,6 +212,7 @@
             <p><stong>Coming Soon</stong></p>
         </div>
       </div>
+      </div>
 
 
       <!-- Search Box Booking.com -->
@@ -230,18 +237,20 @@
 
       <!-- Footer -->
        <footer>
-        <div class="footer-items">
-          <h5 class="company-name">travelyet.com</h5>
-        </div>
-      <div>
-        <i class="fa-brands fa-tiktok"></i>
-      </div>
-      <div>
-        <i class="fa-brands fa-instagram"></i>
-      </div>
+
+         <div class="footer-container">
+          <div class="footer-items">
+            <a href=""><i class="fa-brands fa-tiktok"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <div class="footerNav">
+            <h3>travelyet.com</h3>
+          </div>
+         </div>
+      
        </footer>
     </main>
-  </body>
-   <script src="https://kit.fontawesome.com/c0c181c9be.js" crossorigin="anonymous"></script>
+      <script src="https://kit.fontawesome.com/c0c181c9be.js" crossorigin="anonymous"></script>
 
+  </body>
 </html>

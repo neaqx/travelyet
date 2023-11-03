@@ -2,7 +2,7 @@
 
 /* Asterisk wildcard selector to override default styles added by the browser*/
 * {
-    /* margin: 5px; */
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 
@@ -10,24 +10,21 @@
 
 body {
     font-family: 'Inter', sans-serif;
-   
 }
 
-/* Header Element (with Logo and a Navbar */
+/* Header Element with Logo and a Navbar */
 header {
     width: 95%;
+    height: 95%;
     margin-bottom: 0;
     margin: auto;
 }
 
 header nav {
+    height: 80px;
     width: 100%;
-    height: 7%;
-    margin: auto;
     margin-top: 20px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
 
 }
 
@@ -54,41 +51,183 @@ button:hover {
 header nav ul {
     list-style: none;
     display: flex;
+    margin-left: auto;
 }
 
 header nav ul li {
+    display: inline-block;
     padding: 3px 15px;
 }
 
-header nav ul li:nth-last-child(1) {
-    background-color: black;
-    border-radius: 20px;
-    padding: 5px 20px;
+header nav ul li a:hover {
+    color: #6359FF;
 }
 
-header nav ul li:nth-last-child(1) a {
-    color: white;
-}
-
-header nav ul li:nth-last-child(1):hover {
-    background-color: #6359FF;
-    color: white;
-    cursor: pointer
-}
 
 header nav ul li a {
     text-decoration: none;
     color: black;
-    font-size: 13px;
+    font-size: 15px;
+    margin-bottom: 40px;
 }
-
 
 header nav .bi-list {
     display: none;
 }
 
+#check {
+    display: none;
+}
 
 #logo {
     height: 100px;
     width: auto;
+}
+
+
+/* Photo-Text */
+
+.title-bali{
+    margin: 50px;
+}
+
+
+
+/* Picture Gallery */
+
+.container{
+    width: 100%;
+    margin-inline: auto;
+    padding-inline: 2rem;
+}
+
+.grid-col-span-2{
+    grid-column: span 2;
+}   
+
+
+.photo-gallery{
+    display: grid;
+    grid-template-columns:repeat(5, 3fr);
+    gap: 10px;
+    margin: 0 10px;
+}
+
+.row{
+    grid-column-start:3;
+    grid-row-end: -1;
+
+
+}
+
+.photo img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+/* Accordion Chart */
+.accordion-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    width: 90%;
+    gap: 0;
+}
+
+.booking-container{ 
+    margin-top: 60px;
+    padding: 30px;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgb(201, 201, 201);
+}
+
+.accordion{
+    margin-top: 60px;
+    margin-left: 50px; 
+    width: 90%;
+}
+
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 20px rgb(201, 201, 201);
+}
+
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 500;
+    cursor: pointer;
+}
+
+label::before{
+    content: '+';
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight:600;
+}
+
+label:hover{
+    color:#FF8C42;
+}
+
+
+input[type="radio"]{
+    display: none;
+}
+
+.accordion .content{
+    color: black;
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, paading 0.5s;
+}
+
+.accordion input[type="radio"]:checked + label + .content{
+    max-height: 400px;
+    padding:10px 10px 20px;
+}
+
+/* Comment Sections */
+
+.comment-section{
+    width: 75%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.message-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+
+}
+
+.first-comment{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.first-comment p{
+    padding: 30px;
+    width: 70%;
+
+}
+
+.first-comment img{
+    display: inline-block;
+    border-radius: 100%;
+    padding: 25%;
+    width: 100px;
 }
