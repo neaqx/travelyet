@@ -19,30 +19,256 @@
 
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
-    />
-    <link rel="stylesheet" href="css/style.css" />
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"/>
+    <link rel="stylesheet" href="css/explore-style.css" />
+
 
     <!-- Title -->
     <title>travelyet</title>
   </head>
-
   <body>
     <header>
+
       <!-- Navbar -->
+      <div>
       <nav>
         <a href="index.html"
           ><img src="/assets/logo/logo new.svg" alt="travelyet-logo" id="logo"
         /></a>
-        <ul>
+        <ul id="menulist">
           <li><a href="index.html">Home</a></li>
           <li><a href="destinations.html">Destinations</a></li>
-          <li><a href="contactus.html">Contact</a></li>
-          <li><a href="#">Newsletter</a></li>
+          <li><a href="contactus.html">Contact</a></li> 
         </ul>
-        <i class="bi bi-list"></i>
-      </nav>
+        <input type="checkbox" name="" id="check">
+        <label for="check">
+          <i class="bi bi-list""></i>
+        </label>
+       </nav>
+      </div>
     </header>
 
-</body>
+
+    <!-- Photo-Text  -->
+    <main>
+      <div class="title-bali">
+        <h1>Explore Bali</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+          repellat quaerat laborum totam, dolor aliquid dicta? Eaque architecto
+          iusto quia provident sint deleniti fugit sit quidem nesciunt!
+          Laudantium, sed! Molestias.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+          repellat quaerat laborum totam, dolor aliquid dicta? Eaque architecto
+          iusto quia provident sint deleniti fugit sit quidem nesciunt!
+          Laudantium, sed! Molestias.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+          repellat quaerat laborum totam, dolor aliquid dicta? Eaque architecto
+          iusto quia provident sint deleniti fugit sit quidem nesciunt!
+          Laudantium, sed! Molestias.
+        </p>
+      </div>
+
+       <!-- Picture Gallery -->
+      <div class="container">
+        <div class="photo-gallery">
+          <div class="photo grid-col-span-2">
+            <img src="assets/images/bali-beach-picture.jpg" alt="" />
+          </div>
+          <div class="photo">
+            <img src="assets/images/bali-beach-picture.jpg" alt="" />
+          </div>
+          <div class="photo">
+            <img src="assets/images/bali-beach-picture.jpg" alt="" />
+          </div>
+           <div class="photo row">
+            <img src="assets/images/bali-beach-picture.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      
+      <!-- Accordion Chart -->
+      <div class="accordion-container">
+       <ul class="accordion">
+        <li>
+          <input type="radio" name="accordion" id="first" checked>
+          <label for="first"><h3>Summary</h3></label>
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+              repellat quaerat laborum totam, dolor aliquid dicta? Eaque
+              architecto iusto quia provident sint deleniti fugit sit quidem
+              nesciunt! Laudantium, sed! Molestias.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+              repellat quaerat laborum totam, dolor aliquid dicta? Eaque
+              architecto iusto quia provident sint deleniti fugit sit quidem
+              nesciunt! Laudantium, sed! Molestias.
+            </p>
+          </div>
+        </li>
+        <li>
+          <input type="radio" name="accordion" id="second">
+          <label for="second"><h3>Location</h3></label>
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+              repellat quaerat laborum totam, dolor aliquid dicta? Eaque
+              architecto iusto quia provident sint deleniti fugit sit quidem
+              nesciunt! Laudantium, sed! Molestias.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+              repellat quaerat laborum totam, dolor aliquid dicta? Eaque
+              architecto iusto quia provident sint deleniti fugit sit quidem
+              nesciunt! Laudantium, sed! Molestias.
+            </p>
+          </div>
+        </li>
+        <li>
+          <input type="radio" name="accordion" id="third">
+          <label for="third"><h3>Package</h3></label>
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+              repellat quaerat laborum totam, dolor aliquid dicta? Eaque
+              architecto iusto quia provident sint deleniti fugit sit quidem
+              nesciunt! Laudantium, sed! Molestias.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+              repellat quaerat laborum totam, dolor aliquid dicta? Eaque
+              architecto iusto quia provident sint deleniti fugit sit quidem
+              nesciunt! Laudantium, sed! Molestias.
+            </p>
+          </div>
+        </li>
+       </ul>
+       <div class="booking-container">
+          <h3>Our Offer</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, rem animi atque ipsam, perferendis ad ducimus nam facilis fugiat iusto laboriosam delectus, sed possimus nostrum enim nihil perspiciatis vel aspernatur.
+          </p>
+          <button>Claim Offer</button>
+       </div>
+    </div>
+
+    <!-- Review -->
+    <div class="comment-section">
+      <div class="comment-headline">
+        <h2>travelyet.com ambassador</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eius vitae architecto unde, cupiditate labore laborum error non. Quisquam pariatur commodi error sit ipsam. Maxime fugit obcaecati eveniet vel provident.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eius vitae architecto unde, cupiditate labore laborum error non. Quisquam pariatur commodi error sit ipsam. Maxime fugit obcaecati eveniet vel provident.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eius vitae architecto unde, cupiditate labore laborum error non. Quisquam pariatur commodi error sit ipsam. Maxime fugit obcaecati eveniet vel provident.
+        </p>
+      </div>
+      </div>
+
+      <div class="testimonials-box-container">
+          <div class="testimonial-box">
+            <div class="box-top">
+              <div class="profile">
+                <img src="assets/images/expmax.jpg" alt="" class="profile-img">
+              </div>
+              <div class="name-user">
+                <strong>Max Mustermann</strong>
+                <span>@mmustermann</span>
+              </div>
+              <div class="reviews">
+               <i class="fa-solid fa-star"></i>
+               <i class="fa-solid fa-star"></i>
+               <i class="fa-solid fa-star"></i>
+               <i class="fa-solid fa-star"></i>
+               <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="client-commit">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga blanditiis obcaecati, nam molestias provident deleniti. Suscipit voluptates iusto sapiente commodi veniam necessitatibus saepe nobis, ducimus similique optio iste reiciendis perferendis.</p>
+            </div>
+          </div>
+          <div class="testimonial-box">
+            <div class="box-top">
+              <div class="profile">
+                <img src="assets/images/expmax.jpg" alt="" class="profile-img">
+              </div>
+              <div class="name-user">
+                <strong>Max Mustermann</strong>
+                <span>@mmustermann</span>
+              </div>
+              <div class="reviews">
+               <i class="fa-solid fa-star"></i>
+               <i class="fa-solid fa-star"></i>
+               <i class="fa-solid fa-star"></i>
+               <i class="fa-solid fa-star"></i>
+               <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="client-commit">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga blanditiis obcaecati, nam molestias provident deleniti. Suscipit voluptates iusto sapiente commodi veniam necessitatibus saepe nobis, ducimus similique optio iste reiciendis perferendis.</p>
+            </div>
+          </div>
+          <div class="testimonial-box">
+            <div class="box-top">
+              <div class="profile">
+                <img src="assets/images/expmax.jpg" alt="" class="profile-img">
+              </div>
+              <div class="name-user">
+                <strong>Max Mustermann</strong>
+                <span>@mmustermann</span>
+              </div>
+              <div class="reviews">
+               <i class="fa-solid fa-star"></i>
+               <i class="fa-solid fa-star"></i>
+               <i class="fa-solid fa-star"></i>
+               <i class="fa-solid fa-star"></i>
+               <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="client-commit">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga blanditiis obcaecati, nam molestias provident deleniti. Suscipit voluptates iusto sapiente commodi veniam necessitatibus saepe nobis, ducimus similique optio iste reiciendis perferendis.</p>
+            </div>
+          </div>
+      </div>
+
+      <!--Product Grid -->
+      <div class="container-product-grid">
+        <div class="product-grid">
+          <div class="card">
+            <img src="/assets/images/bali-beach-picture.jpg" alt="card-image" />
+            <h3 class="card-title">
+              Explore Bali - Welcome to the paradise of Asia
+            </h3>
+            <p class="card-description">
+              Bali is a captivating Indonesian island known as the "Island of
+              the Gods." It boasts stunning natural beauty, rich culture, and a
+              mix of adventure and relaxation, making it a top destination for
+              travelers.
+            </p>
+            <button><a href="destinations.html"></a>Explore more</button>
+          </div>
+          <div class="card">
+            <img src="assets/images/London-cityview.jpg" alt="card-image" />
+            <h3 class="card-title">
+              Explore London - Meet history and modernity
+            </h3>
+            <p class="card-description">
+              London, the UK's vibrant capital, combines history and modernity.
+              It's a cultural hub with iconic landmarks, diverse cuisine,
+              world-class museums, and lush parks. The River Thames and its
+              energy make it an enticing destination.
+            </p>
+            <button><a href="destinations.html"></a> Explore more</button>
+          </div>    
+      </div>
+      </div>
+    </main>
+
+
+
+    <!-- Footer -->
+    <footer>
+    <div class="footer-container">
+          <div class="footer-items">
+            <a href=""><i class="fa-brands fa-tiktok"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <div class="footerNav">
+            <h3>travelyet.com</h3>
+          </div>
+         </div>
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/c0c181c9be.js" crossorigin="anonymous"></script>
+  </body>
 </html>

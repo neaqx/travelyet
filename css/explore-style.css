@@ -84,9 +84,12 @@ header nav .bi-list {
     width: auto;
 }
 
+label{
+    display: none;
+}
+
 
 /* Photo-Text */
-
 .title-bali{
     margin: 50px;
 }
@@ -94,7 +97,6 @@ header nav .bi-list {
 
 
 /* Picture Gallery */
-
 .container{
     width: 100%;
     margin-inline: auto;
@@ -105,20 +107,18 @@ header nav .bi-list {
     grid-column: span 2;
 }   
 
+.row {
+    grid-column: 1;
+    grid-row-start: 3;
+}
 
 .photo-gallery{
     display: grid;
-    grid-template-columns:repeat(5, 3fr);
+    grid-template-columns:repeat(4, 3fr);
     gap: 10px;
     margin: 0 10px;
 }
 
-.row{
-    grid-column-start:3;
-    grid-row-end: -1;
-
-
-}
 
 .photo img{
     max-width: 100%;
@@ -138,10 +138,25 @@ header nav .bi-list {
 .booking-container{ 
     margin-top: 60px;
     padding: 30px;
-    justify-content: space-between;
     width: 100%;
     border-radius: 20px;
     box-shadow: 5px 5px 20px rgb(201, 201, 201);
+}
+
+.booking-container h3{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.booking-container p{
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.booking-container button{
+    width: 100%;
 }
 
 .accordion{
@@ -197,37 +212,128 @@ input[type="radio"]{
     padding:10px 10px 20px;
 }
 
-/* Comment Sections */
 
+
+/* Comment Sections */
 .comment-section{
-    width: 75%;
-    margin-top: 50px;
-    margin-left: 50px;
+    width: 90%;
+    margin: 70px;
 }
 
-.message-section{
+.comment-headline h2{
+    color: #6359FF;
+    padding-bottom:30px;
+}
+
+
+.testimonials-box-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+
+.testimonial-box{
+    width: 500px;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.profile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 10px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+}
+
+.name-user{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+}
+
+.name-user strong {
+    color: black;
+    font-size: 1.2rem;
+    letter-spacing: .5px
+}
+
+.name-user span {
+    color: #3d3d3d;
+    font-size: 1.1rem;
+    letter-spacing: .5px;
+}
+
+.reviews{
+    color:#f9d71c;
+}
+
+.box-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+
+/* Offer Section */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
     align-items: center;
     margin: 50px;
-
+    padding-inline: 100px;
 }
 
-.first-comment{
-    display: grid;
-    grid-auto-flow: column;
+.card {
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    box-shadow: 5px 5px 20px rgb(201, 201, 201);
+    font-weight: 300;
+    border-radius: 20px;
 }
 
-.first-comment p{
-    padding: 30px;
-    width: 70%;
-
+.card img {
+    width: 100%;
+    aspect-ratio: 5/2;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
-.first-comment img{
-    display: inline-block;
-    border-radius: 100%;
-    padding: 25%;
-    width: 100px;
+.card button{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+footer {
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-items a {
+    color: black;
+    font-size: 150%;
+    justify-content: space-between;
+    padding-left: 30px;
+    margin-left: 40px;
+    margin-top: 50px;
 }
