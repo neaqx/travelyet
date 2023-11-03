@@ -229,7 +229,7 @@ main img {
     bottom: -100px;
 }
 
-.fa-circle-info{
+.fa-circle-info, .fa-file-circle-check, .fa-phone, .fa-route {
     color: #6359FF
 }
 
@@ -348,6 +348,8 @@ div span {
     flex-direction: column;
     text-align: center;
     }
+   
+
 
 
 /* Conatact Us Section */
@@ -375,7 +377,7 @@ footer{
 .footer-items{
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
     text-align: center;
 }
 
@@ -385,4 +387,19 @@ footer{
 
 .fa-tiktok .fa-instagram {
     margin:0;
+}
+
+
+/* Mobil Design */
+
+@media only screen and (max-width: 390px) {
+    header nav{
+        width: 100%;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index:2;
+        background-color: #6359FF;
+        color: #ffffff;
+    }
 }
