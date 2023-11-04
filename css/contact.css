@@ -1,30 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&display=swap');
 
+
 /* Asterisk wildcard selector to override default styles added by the browser*/
-* {
+*{
     /* margin: 5px; */
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
+    
 }
 
-body {
-    font-family: 'Inter', sans-serif;
-}
-
-/* Header Element (with Logo and a Navbar */
-header {
-    width: 95%;
-    height: 95%;
-    margin-bottom: 0;
-    margin: auto;
-}
-
-header nav {
-    height: 80px;
-    width: 100%;
-    margin-top: 20px;
-    display: flex;
-
+body{
+font-family: 'Inter', sans-serif;
 }
 
 button {
@@ -47,23 +33,33 @@ button:hover {
     transform: translateY(-5px);
 }
 
-header nav ul {
-    list-style: none;
-    display: flex;
-    margin-left: auto;
+
+/* Header Element (with Logo and a Navbar */
+header{
+      width: 95%;
+      height: 95%;
+      margin-bottom: 0;
+      margin: auto;
 }
 
-header nav ul li {
+header nav{
+    height: 80px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+header nav ul{
+   float: right;
+   margin-right: 20px;    
+}
+
+header nav ul li{
     display: inline-block;
-    padding: 3px 15px;
-    margin-top: 15px;
-
+    line-height: 70px;
+    margin:0 15px;
+   
 }
-
-header nav ul li a:hover {
-    color: #6359FF;
-}
-
 
 header nav ul li a {
     text-decoration: none;
@@ -72,13 +68,70 @@ header nav ul li a {
     margin-bottom: 40px;
 }
 
-header nav .bi-list {
+.checkbtn{
+    font-size: 30px;
+    color:black;
+    float: right;
+    line-height: 80px;
+    margin: 20px;
+    cursor: pointer;
     display: none;
 }
 
-#check {
+#check{
     display: none;
 }
 
+header nav ul li a:hover {
+    color: #6359FF;
+}
 
-/* Contact Section */
+#logo {
+    height: 100px;
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+    .checkbtn {
+        display: block;
+        font-size: 2rem;
+        margin-top: 10px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    nav ul {
+        display: grid;
+        grid: template columns 1fr;
+        gap: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: #FF8C42;
+        top: 100px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        z-index: 99;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+}
