@@ -178,7 +178,6 @@ nav label::before{
     display: flex;
     align-items: center;
     padding: 10px;
-    font-size: 500;
     cursor: pointer;
 }
 
@@ -204,7 +203,8 @@ input[type="radio"]{
     line-height: 26px;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.5s, paading 0.5s;
+    transition: max-height 0.5s, 
+    padding 0.5s;
 }
 
 .accordion input[type="radio"]:checked + label + .content{
@@ -350,8 +350,7 @@ footer {
 
     nav ul {
         display: grid;
-        grid: template columns 1fr;
-        gap: none;
+        grid-template-columns: 1fr;
         position: fixed;
         width: 100%;
         height: 100%;
