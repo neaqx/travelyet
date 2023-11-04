@@ -23,18 +23,11 @@ Code Institute Project Assessment 1 (PL:HTML/CSS)
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/neaqx/travelyet">
-    <img src="/assets/logo/logo new.png" alt="Logo" width="500" height="500">
+    <img src="/assets/logo/logo new.svg" alt="Logo" width="500" height="500">
   </a>
 
 <h3 align="center">travelyet.com</h3>
@@ -83,10 +76,10 @@ The target audience for Travelyet is diverse. Anyone with an interest in travel 
 
 ### Design strategy
 
-Die Design Strategie ist, eine mondere und einfache Webseite zu erstellen.
+Die Design Strategie ist, eine mondere und einfache Webseite zu erstellen. Ich möchte gerne einen einfachen und schnellen Zugang für die Nutzer ermöglichen. Die Webseite soll nicht überladen wirken. Die Nutzer sollen sich schnell und einfach zurechtfinden. 
 
 <strong>Color:</strong> #6359FF #6359FF <br>
-<strong>aProject Screens</strong> https://drive.google.com/drive/folders/1x19ViNtfCJSbSIWnw4666UYjokxRT3gz?usp=sharing
+<strong>Project Screens</strong> https://drive.google.com/drive/folders/1x19ViNtfCJSbSIWnw4666UYjokxRT3gz?usp=sharing
 <strong>Sources (Tutorial):</strong>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
