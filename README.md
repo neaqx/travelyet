@@ -72,8 +72,10 @@ The target audience for Travelyet is diverse. Anyone with an interest in travel 
 
 Die Design Strategie ist, eine mondere und einfache Webseite zu erstellen. Ich möchte gerne einen einfachen und schnellen Zugang für die Nutzer ermöglichen. Die Webseite soll nicht überladen wirken. Die Nutzer sollen sich schnell und einfach zurechtfinden. 
 
-<strong>Color:</strong> #6359FF #6359FF <br>
+<strong>Color:</strong> #6359FF #6359FF 
+<br>
 <strong>Project Screens</strong> https://drive.google.com/drive/folders/1x19ViNtfCJSbSIWnw4666UYjokxRT3gz?usp=sharing
+<br>
 <strong>Sources (Tutorial):</strong>
 
 Dani Krossing
