@@ -3,15 +3,12 @@
 
 /* Asterisk wildcard selector to override default styles added by the browser*/
 *{
-    /* margin: 5px; */
+    margin: 0;
     padding: 0;
     box-sizing: border-box; 
     
 }
 
-body{
-font-family: 'Inter', sans-serif;
-}
 
 button {
     background-color: #6359FF;
@@ -45,7 +42,7 @@ header{
 header nav{
     height: 80px;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 
@@ -91,18 +88,80 @@ header nav ul li a:hover {
     width: auto;
 }
 
+body {
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+   
+    
 
+}
+/* Contact Form */
 
+#signup {
+    background-image: url("../assets/images/ocean.jpg");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
 
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
 
+#signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
 
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
 
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #6359FF;
+    color: #fafafa;
+}
 
+footer {
+    width: 90%;
+    margin-top: 30px;
+}
 
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-
-
+.footer-items a {
+    color: black;
+    font-size: 150%;
+    justify-content: space-between;
+    padding-left: 30px;
+    margin-left: 40px;
+}
 
 
 
