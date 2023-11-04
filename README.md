@@ -86,6 +86,7 @@ https://www.youtube.com/watch?v=VQraviuwbzU&t=9s&ab_channel=KevinPowell
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
 
 ### Deveployment
+<hr>
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 
