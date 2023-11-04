@@ -63,7 +63,6 @@ In my development process, I opted to utilize VSCode as my text editor. My choic
 
 <strong>Project Screens</strong> https://drive.google.com/drive/folders/1x19ViNtfCJSbSIWnw4666UYjokxRT3gz?usp=sharing
 
-
 <strong>Sources (Tutorial):</strong>
 
 Dani Krossing
