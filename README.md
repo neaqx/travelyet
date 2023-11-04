@@ -100,23 +100,11 @@ https://www.youtube.com/watch?v=VQraviuwbzU&t=9s&ab_channel=KevinPowell
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- USAGE EXAMPLES -->
-
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- CONTACT -->
 
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Your Name - [linkedin-shield](https://www.linkedin.com/in/nevin-aquinas/) 
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
