@@ -71,22 +71,22 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Business strategy
 
-Die Idee hinter travelyet ist, eine Seite zu erstellen, die eine genau Übersicht über die trendigsten und anderen Rieseziele aufzubauen. Huetzutage möchten alle einen schnellen Überblick über Reisemöglichkeiten haben. Das Problem, welches travelyet.com lösen möchte, ist die gewaltige Informationsflut über verschiedene Reisezeiel struktiert und genau darzustellen. Über die Webseite können sich die User über das Reiseziel infirmieren. Über Erfahrungsblogs, Tips und Ticks Blog oder auch über Bewertungen über das Reiseziel können sich die User schnell und genau effizernt informieren. Die Plattform arbiten zudem mit einem Affiliate Programm zusammen. travelyet bietet die Möglichkeit, die Reise direkt über den Partner Booking.com zu buchen. Die User können sich direkt, nachdem sie sich informiert haben, eine Reise buchen. Die Gestaltung der Reise kann individualsiet werden.
+The concept underlying Travelyet is to create a platform that provides a precise overview of the trendiest and other prominent travel destinations. In today's world, individuals seek rapid insights into travel opportunities. The issue that Travelyet.com aims to address is the overwhelming inundation of information pertaining to diverse travel destinations, structured and presented with precision. Through the website, users can educate themselves about the travel destination. Via experience blogs, tips and tricks blogs, or even reviews about the travel destination, users can swiftly and accurately inform themselves. The platform also collaborates with an affiliate program. Travelyet offers the opportunity to book travel directly through the partner, Booking.com. Users can book a trip directly after they have educated themselves. The customization of the travel experience is possible.
 
-travelyet.com soll in der Zukunft auch ein Amaassador-Programm anbieten, wo sich die User anmelden können. In diesem Programm können sich die User ihre Erfahrungsberichte monetarizieren und damit Geld verdienen. Sie können ihre Erfahrungen per Blogs oder Vlogs präsentieren und monetarizieren.
+In the future, Travelyet.com intends to introduce an Ambassador Program, where users can enroll. In this program, users can monetize their experiences and generate income. They can present and monetize their experiences through blogs or vlogs.
 
-In der nahene Zukunft soll auch e-Commerce Funktion implemniert werden. Neben der Dienstleistung sollen auch physiche Produkte vrekauft werden.
+In the near future, an e-commerce function is also set to be implemented. In addition to the service, physical products will be offered for sale.
 
 ### Target audience
 
-Die Zielgruppe für travelyet ist vielfältig. Jeder, der sich für Reisen interessiert, kann die Webseite nutzen. Die genau Einschränkung auf eine Zielgruppe gint es nicht, dennoch kann man verschiedene Zielgruppensegmente zuorden. Die junge Generation hat andere Rieseorte als die ältere Generation.
+The target audience for Travelyet is diverse. Anyone with an interest in travel can use the website. While there is no specific restriction to a single target audience, various audience segments can be identified. The younger generation has different preferences for travel destinations compared to the older generation.
 
 ### Design strategy
 
 Die Design Strategie ist, eine mondere und einfache Webseite zu erstellen.
 
 <strong>Color:</strong> #6359FF #6359FF <br>
-<strong>Figma Doc:</strong>
+<strong>aProject Screens</strong> https://drive.google.com/drive/folders/1x19ViNtfCJSbSIWnw4666UYjokxRT3gz?usp=sharing
 <strong>Sources (Tutorial):</strong>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -101,19 +101,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ROADMAP -->
 
-## Roadmap
-
-<ol>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-</ol>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
 
