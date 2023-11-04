@@ -108,14 +108,14 @@ This section should describe any validation services you used to check your proj
 </ul>
 
 ### Bug Fixes
-Folgende Bug Fixes wurden durchgeführt:
+The following bug fixes have been implemented:
 
 <ul>
-<li>Die Navigationsbar wurde auf der Startseite nicht angezeigt. Dieser Fehler wurde behoben.</li>
-<li>Doppel Quatation wurden behoben</li>
-<li>Space Erros wurden behoben</li>
-<li>Rechtschreibfehler</li>
-<li>Badly with unqouted atrributes values</li>
+<li>The navigation bar was not displaying on the homepage. This issue has been resolved.</li>
+<li>Double quotations have been fixed.</li>
+<li>Space errors have been addressed.</li>
+<li>Spelling errors have been corrected.</li>
+<li>Issues with unquoted attribute values have been rectified.</li>
 </ul>
 
 
