@@ -82,6 +82,19 @@ https://www.youtube.com/watch?v=Y5TYDo9Qcv4&ab_channel=KevinPowell
 https://www.youtube.com/watch?v=VQraviuwbzU&t=9s&ab_channel=KevinPowell
 
 
+
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
+
+### Deveployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+<ul>
+<li>In the GitHub repository, navigate to the Settings tab</li>
+<li>From the source section drop-down menu, select the Master Branch</li>
+<li>Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.</li>
+</ul>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
