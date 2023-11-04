@@ -82,6 +82,14 @@ https://www.youtube.com/watch?v=Y5TYDo9Qcv4&ab_channel=KevinPowell
 https://www.youtube.com/watch?v=VQraviuwbzU&t=9s&ab_channel=KevinPowell
 
 
+<strong>Sources (Libraries):</strong>
+
+Google Fonts -> https://fonts.google.com/
+
+Font Awesome -> https://fontawesome.com/
+
+
+
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
 
