@@ -106,9 +106,18 @@ This section should describe any validation services you used to check your proj
 <ul>
 <li>HTML: https://validator.w3.org/</li>
 <li>CSS: https://jigsaw.w3.org/css-validator/</li>
+</ul>
 
 ### Bug Fixes
+Folgende Bug Fixes wurden durchgeführt:
 
+<ul>
+<li>Die Navigationsbar wurde auf der Startseite nicht angezeigt. Dieser Fehler wurde behoben.</li>
+<li>Doppel Quatation wurden behoben</li>
+<li>Space Erros wurden behoben</li>
+<li>Rechtschreibfehler</li>
+<li>Badly with unqouted atrributes values</li>
+</ul>
 
 
 
