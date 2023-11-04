@@ -70,12 +70,16 @@ The target audience for Travelyet is diverse. Anyone with an interest in travel 
 
 ### Design strategy
 
-Die Design Strategie ist, eine mondere und einfache Webseite zu erstellen. Ich möchte gerne einen einfachen und schnellen Zugang für die Nutzer ermöglichen. Die Webseite soll nicht überladen wirken. Die Nutzer sollen sich schnell und einfach zurechtfinden. 
+The design strategy is to create a modern and simplistic website, aiming to provide a straightforward and expedient user experience. The website should not appear cluttered, allowing users to navigate quickly and effortlessly.
+
+In my development process, I opted to utilize VSCode as my text editor. My choice in using VSCode stems from my prior experience with this editor. I have previously worked with VSCode and am familiar with its functionalities. Additionally, I have configured Git locally for direct GitHub integration, facilitating the process of pushing code to the repository. 
 
 <strong>Color:</strong> #6359FF #6359FF 
-<br>
+
+
 <strong>Project Screens</strong> https://drive.google.com/drive/folders/1x19ViNtfCJSbSIWnw4666UYjokxRT3gz?usp=sharing
-<br>
+
+
 <strong>Sources (Tutorial):</strong>
 
 Dani Krossing
@@ -92,7 +96,6 @@ https://www.youtube.com/watch?v=Y5TYDo9Qcv4&ab_channel=KevinPowell
 
 5 simple tips to making responsive layouts the easy way
 https://www.youtube.com/watch?v=VQraviuwbzU&t=9s&ab_channel=KevinPowell
-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
