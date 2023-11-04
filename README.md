@@ -76,6 +76,23 @@ Die Design Strategie ist, eine mondere und einfache Webseite zu erstellen. Ich m
 <strong>Project Screens</strong> https://drive.google.com/drive/folders/1x19ViNtfCJSbSIWnw4666UYjokxRT3gz?usp=sharing
 <strong>Sources (Tutorial):</strong>
 
+Dani Krossing
+13 | HOW TO IMPORT NEW FONTS USING HTML | 2023 | Learn HTML and CSS Full Course for Beginners -> https://www.youtube.com/watch?v=g15mF_XAOB8&ab_channel=DaniKrossing
+
+Kevin Powell
+How to make a responsive website from scratch | HTML & CSS Tutorial -> https://www.youtube.com/watch?v=QYsGFGvhP1c&ab_channel=KevinPowell
+
+Learn how to create a responsive CSS grid layout
+https://www.youtube.com/watch?v=sKFW3wek21Q&t=366s&ab_channel=KevinPowell
+
+Beginner’s guide to styling text with CSS
+https://www.youtube.com/watch?v=Y5TYDo9Qcv4&ab_channel=KevinPowell
+
+5 simple tips to making responsive layouts the easy way
+https://www.youtube.com/watch?v=VQraviuwbzU&t=9s&ab_channel=KevinPowell
+
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
