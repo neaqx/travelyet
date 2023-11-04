@@ -89,11 +89,8 @@ Google Fonts -> https://fonts.google.com/
 Font Awesome -> https://fontawesome.com/
 
 
-
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
-
 ## Deveployment
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 
@@ -102,6 +99,18 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 <li>From the source section drop-down menu, select the Master Branch</li>
 <li>Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.</li>
 </ul>
+
+## Validation
+This section should describe any validation services you used to check your project for errors 
+
+<ul>
+<li>HTML: https://validator.w3.org/</li>
+<li>CSS: https://jigsaw.w3.org/css-validator/</li>
+
+### Bug Fixes
+
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
