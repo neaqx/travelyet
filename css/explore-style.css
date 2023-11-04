@@ -13,7 +13,7 @@ body {
 }
 
 /* Header Element with Logo and a Navbar */
-header {
+hheader {
     width: 95%;
     height: 95%;
     margin-bottom: 0;
@@ -24,55 +24,35 @@ header nav {
     height: 80px;
     width: 100%;
     margin-top: 20px;
-    display: flex;
-
 }
 
-button {
-    background-color: #6359FF;
-    width: 40%;
-    padding: 10px 20px;
-    border-radius: 10px;
-    border: none;
-    color: white;
-    font-weight: 600;
-    cursor: pointer;
-    outline: none;
-    transition: .3s linear;
-}
-
-button:hover {
-    background-color: #FF8C42;
-    border: #FF8C42;
-    transition: .3s linear;
-    transform: translateY(-5px);
-}
 
 header nav ul {
-    list-style: none;
-    display: flex;
-    margin-left: auto;
+    float: right;
+    margin-right: 20px;
 }
 
 header nav ul li {
     display: inline-block;
-    padding: 3px 15px;
-    margin-bottom:60px;
-}
+    line-height: 70px;
+    margin: 0 15px;
 
-header nav ul li a:hover {
-    color: #6359FF;
 }
-
 
 header nav ul li a {
     text-decoration: none;
     color: black;
     font-size: 15px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
-header nav .bi-list {
+.checkbtn {
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin: 20px;
+    cursor: pointer;
     display: none;
 }
 
@@ -80,15 +60,14 @@ header nav .bi-list {
     display: none;
 }
 
+header nav ul li a:hover {
+    color: #6359FF;
+}
+
 #logo {
     height: 100px;
     width: auto;
 }
-
-label{
-    display: none;
-}
-
 
 /* Photo-Text */
 .title-bali{
