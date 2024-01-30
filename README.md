@@ -60,7 +60,7 @@ Travelyet redefines travel planning with a clear, concise platform, connecting y
 ## Features
 
 * This website is targeting people who want to travel.
-* They can do that by navigating to the sign-up page and filling out a form.
+* They can navigate and search for the best destination.
 * Responsive on all device sizes.
 
 ### Existing Features
@@ -73,15 +73,15 @@ Travelyet redefines travel planning with a clear, concise platform, connecting y
 
 ![Navigation](assets/images/navbar.png)
 
-* Main heading
-    * It is composed of a background image featuring "stars in the night sky".
-    * Main heading, which is unique for each page:
-        * The home page is comprised of 'Are you ready to explore the moon?"
-        * Gallery is made up of 'Welcome to our Gallery'.
-        * The sign up page is comprised of 'Application Form'
-        * appllication-received is comprised of 'Application Received'.
+* Hero section
+    * It is composed of a background image featuring a picture of a desert-landscape.
+    * Hero section, which is unique for landigpage:
+        * The home page is comprised of "Explore the world"
+        * Subtext, which explain the purpose of the website.
+        * Button, which allows the user to navigate to the explore Bali page.
+        
 
-![Main heading](/assets/images/main-heading-image.PNG)
+![Main heading](/assets/images/hero-section.png)
 
 * Section one, Dreams and info
     * This section contains a short heading followed by images.
