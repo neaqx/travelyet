@@ -39,31 +39,27 @@ The design strategy is to create a modern and simplistic website, aiming to prov
 
 ## User Experience (UX)
 
-This website is meant to attract people who like space exploration and would like to win a trip to the Moon.
-
-There is clear navigation and a form set up on the sign-up page to apply to win the trip.
-
-Users can contact Lunar Escape if they wish to join the company itself. They are always looking for people with talent.
+Travelyet redefines travel planning with a clear, concise platform, connecting you effortlessly to the world's trendiest destinations. Discover, learn, and book your next adventure through our partnership with Booking.com, all in one streamlined experience. Our future holds exciting opportunities, like the Travelyet Ambassador Program, allowing you to share and monetize your travel stories. As we evolve, look out for our e-commerce feature, enhancing your journey with essential travel products. Designed for ease, our modern, simplistic website caters to every traveler's need, ensuring your journey to discovery is just a few clicks away. Welcome to Travelyet – where every journey starts with clarity and ends with unforgettable experiences.
 
 ### User Stories
 
  * First-time visitor goals
     * Understand the main purpose of the site and learn more about the Lunar Escape company.
     * Easily navigate throughout the site.
-    * Find the Sign Up form and fill it out.
+    * Find the Offers and informations on the website.
  * Returning visitor goals
-    * Find out information about the company.
-    * Locate contact information.
-    * Review the site's extensive gallery.
+    * Find out information about new destination.
+    * Find the best way to get in contact with the company with any questions they may have.
+    * Finding new offers.
 
  * Frequent user goals
-    * Check if there are any new packages to apply for in the sign-up form.
-    * Review the gallery for any new photos.
+    * Check if there are any new destination with new offers.
+    * Review the comments form the travelyet.com ambassador.
 - - -
 
 ## Features
 
-* This website is targeting people who want to win a trip to the moon.
+* This website is targeting people who want to travel.
 * They can do that by navigating to the sign-up page and filling out a form.
 * Responsive on all device sizes.
 
