@@ -28,7 +28,6 @@ The design strategy is to create a modern and simplistic website, aiming to prov
 ### [Testing](#testing-1)
 * [Validation Results](#validation-results)
 * [Manual Testing](#manual-testing)
-* [Lighthouse Report](#lighthouse-report)
 ### [Deployment and local development](#deployment-and-local-development-1)
 * [GitHub Pages](#github-pages)
 * [Forking the GitHub Repository](#forking-the-github-repository)
