@@ -13,7 +13,7 @@ The design strategy is to create a modern and simplistic website, aiming to prov
 
 ![Am I Responsive](assets/images/am-i-responsive.png)
 
-[View Lunar Escape live project here]()
+[View Lunar Escape live project here](https://neaqx.github.io/travelyet/)
 - - -
 ## Table of Contents
 
@@ -113,12 +113,12 @@ Travelyet redefines travel planning with a clear, concise platform, connecting y
 
 ![Contact section](assets/images/contact-section.png)
 
-* travelyet ambassador section
+* Travelyet ambassador section
     * The travelyet ambassador section allows the user to see the most recent ambassador and their experience.
 
 ![Sign Up Form](assets/images/travel-ambassador.png)
 
-* accordion-container and offers section
+* Accordion-container and offers section
     * The accordion-container allows the user to see the most frequently asked questions.
     * The offers section allows the user to see the most recent offers.
 
@@ -133,18 +133,18 @@ Travelyet redefines travel planning with a clear, concise platform, connecting y
 
 ## Features Left to Implement
 
-* Additional packages might be available in the form section.
-* Updated gallery with additional images.
-* In the future, there could be an online academy that will teach aerospace engineering, which you could join through this website.
+* Additional destinations and offers.
+* Updated websites into a eCommerce website.
+* Add a blog section.
 ---
 
 ## Design
 
  * Colour Scheme
-    * Primary colors used on the website: ![Color Scheme](/assets/images/colors-used.png)
+    * Primary colors used on the website: ![Color Scheme](/assets/images/coolors.png)
 
  * Typography
-    * Kanit font is main font used throughout the ite with sans-serif as its fallback font in case Kanit doesn't import for some reasson.
+    * Inter font is main font used throughout the ite with sans-serif as its fallback font in case Kanit doesn't import for some reasson.
 
  * Wireframes
     * Pen and paper in a notebook: simple and effective.
@@ -159,7 +159,7 @@ Travelyet redefines travel planning with a clear, concise platform, connecting y
 
 ## Frameworks, Libraries & Programs Used
 
- * [Gitpod](https://www.gitpod.io/)
+ * [Visual Studio Code](https://code.visualstudio.com/)
     * To write the code.
  * [Git](https://git-scm.com/)
     * for vesion control.
@@ -184,31 +184,38 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 <summary>index.html
 </summary>
 
-![Home Page validation result](/assets/images/html-validation.PNG)
+![Home Page validation result]()
 </details>
 <details>
-<summary>gallery.html
+<summary>explorebali.html
 </summary>
 
-![Gallery validation result](/assets/images/html-validation.PNG)
+![Gallery validation result]()
 </details>
 <details>
-<summary>sign-up.html
+<summary>contactus.html
 </summary>
 
-![Sign Up page validation result](/assets/images/html-validation.PNG)
+![Sign Up page validation result]()
 </details>
 <details>
-<summary>form-received.htmml
+<summary>contact.css
 </summary>
 
-![Application Received validation result](/assets/images/html-validation.PNG)
+![Application Received validation result]()
 </details>
 <details>
 <summary>style.css
 </summary>
 
-![CSS validation result](/assets/images/css-validation.PNG)
+![CSS validation result]()
+</details>
+
+<details>
+<summary>explore.css
+</summary>
+
+![CSS validation result]()
 </details>
 
 ### Manual Testing
@@ -219,85 +226,30 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 * Family and friends were asked to review the website for a better understanding of the user experience.
 * Dev Tools was used to test how the site looks on various screen sizes.
 
-### Lighthouse Report
-
-#### Mobile analysis
-<details>
-<summary>Home Page
-</summary>
-
-![Home Page lighthouse report](/assets/images/home-mobile-report.PNG)
-</details>
-<details>
-<summary>Gallery
-</summary>
-
-![Gallery lighthouse report](/assets/images/gallery-mobile-report.PNG)
-</details>
-<details>
-<summary>Sign Up
-</summary>
-
-![Sign Up Page lighthouse report](/assets/images/sign-up-mobile-report.PNG)
-</details>
-<details>
-<summary>Application Received
-</summary>
-
-![Application received lighthouse report](/assets/images/form-received-mobile-report.PNG)
-</details>
-
-#### Desktop analysis
-<details>
-<summary>Home Page
-</summary>
-
-![Home Page lighthouse report](/assets/images/home-page-report.PNG)
-</details>
-<details>
-<summary>Gallery
-</summary>
-
-![Gallery lighthouse report](/assets/images/gallery-report.PNG)
-</details>
-<details>
-<summary>Sign Up
-</summary>
-
-![Sign Up Page lighthouse report](/assets/images/sign-up-report.PNG)
-</details>
-<details>
-<summary>Application Received
-</summary>
-
-![Application received lighthouse report](/assets/images/form-received-report.PNG)
-</details>
-
----
 
 ## Deployment and local development
 
 ### GitHub Pages
 
 GitHub Pages used to deploy live version of the website.
-1. Log in to GitHub and locate [GitHub Repository Lunar Escape](https://github.com/Thomas-Tomo/Lunar-Escape)
+1. Log in to GitHub and locate [GitHub Repository travelyet.com](https://github.com/neaqx/travelyet)
 2. At the top of the Repository(not the main navigation) locate "Settings" button on the menu.
 3. Scroll down the Settings page until you locate "GitHub Pages".
 4. Under "Source", click the dropdown menu "None" and select "Main" and click "Save".
 5. The page will automatically refresh.
-6. Scroll back to locate the now-published site [link](https://thomas-tomo.github.io/Lunar-Escape/index.html) in the "GitHub Pages" section.
+6. Scroll back to locate the now-published site [link](https://neaqx.github.io/travelyet/) in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
 By forking the repository, we make a copy of the original repository on our GitHub account to view and change without affecting the original repository by using these steps:
 
-1. Log in to GitHub and locate [GitHub Repository Lunar Escape](https://github.com/Thomas-Tomo/Lunar-Escape)
+1. Log in to GitHub and locate [GitHub Repository travelyet.com](https://github.com/neaqx/travelyet)
 2. At the top of the Repository(under the main navigation) locate "Fork" button.
 3. Now you should have a copy of the original repository in your GitHub account.
 
 ### Local Clone
 
-1. Log in to GitHub and locate [GitHub Repository Lunar Escape](https://github.com/Thomas-Tomo/Lunar-Escape)
+1. Log in to GitHub and locate [GitHub Repository travelyet.com](https://github.com/neaqx/travelyet)
 2. Under the repository name click "Clone or download"
 3. Click on the code button, select clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open Git Bash
@@ -323,6 +275,7 @@ By forking the repository, we make a copy of the original repository on our GitH
  * [Pexels](https://www.pexels.com/) free stock photos, royalty free images.
  * [Pixabay](https://pixabay.com/) free stock photos, royalty free images.
  * [Pixlr](https://pixlr.com/) Resizing images.
+ * 
 ---
 
 ## Acknowledgements
