@@ -89,41 +89,45 @@ Travelyet redefines travel planning with a clear, concise platform, connecting y
 
 ![Service and Info Grid](assets/images/information-and-service-grid.png)
 
-* Section two, process of booking
+* Section two, Process of booking
     * This section is valuable to the user as it gives them an easy understanding of the process of booking a vacation.
 
-![Booking process]()
+![Booking process](assets/images/booking-process.png)
 
-* About destination cards
+* Section three, About destination cards
     * This section is valuable to the user as it gives them an easy understanding of the destination.
     * It is designed in a card format to allow the user to easily navigate through the destinations.
 
 ![Destination cards](assets/images/destination-cards.png)
 
-* Booking.com partner section
+* Section four, Booking.com partner section
     * User get the oppurtunity to book a trip directly after they have educated themselves.
     * The customization of the travel experience is possible.
     * Booking.com is a partner of travelyet.com. 
 
 ![Booking partner](assets/images/booking-offers-element.png)
 
-* Contact section 
+* Section five, Contact section 
     * The gallery will provide the user with supporting images to see shuttle launches, flights, and astronauts.
     * This section is valuable to the user as they will see our previous flights and astronauts on the Moon.
 
 ![Contact section](assets/images/contact-section.png)
 
-* The Sign Up page
-    * This page will allow users to choose a package, sign up for it, and win a trip to the moon in a lucky draw.
-    * The user can choose a regular flight and explore the surface of both of these to be in the lucky draw.
-    * In the future, there might be more packages to choose from. 
+* travelyet ambassador section
+    * The travelyet ambassador section allows the user to see the most recent ambassador and their experience.
 
-![Sign Up Form](/assets/images/form-image.PNG)
+![Sign Up Form](assets/images/travel-ambassador.png)
 
-* The Sign Up received page
-    * Form received
+* accordion-container and offers section
+    * The accordion-container allows the user to see the most frequently asked questions.
+    * The offers section allows the user to see the most recent offers.
 
-![Form received](/assets/images/form-received-image.PNG)
+![Form received](/assets/images/accordion-container.png)
+
+* Contact Form
+    * The contact form allows the user to send a message to the company.
+
+![Form received](/assets/images/contact-formular.png)
 
 ---
 
