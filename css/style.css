@@ -163,7 +163,6 @@ main img {
 /* Frist text */
 .explaintext h1 {
     font-size: 320%;
-    padding: auto;
 }
  
 .explaintext p {
@@ -262,7 +261,7 @@ div span {
     justify-content: space-between;
     border-radius: 10px;
     margin-top: 30px;
-    box-shadow:  6 0 0 6 rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 20px rgb(201, 201, 201);
 }
 
 .destination-progress{
@@ -342,7 +341,7 @@ div span {
     border-radius: 10px;
     margin-top: 30px;
     margin-bottom:100px;
-    box-shadow: 6 0 0 6 rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 20px rgb(201, 201, 201);
 }
 
 footer{

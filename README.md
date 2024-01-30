@@ -144,10 +144,10 @@ Travelyet redefines travel planning with a clear, concise platform, connecting y
     * Primary colors used on the website: ![Color Scheme](/assets/images/coolors.png)
 
  * Typography
-    * Inter font is main font used throughout the ite with sans-serif as its fallback font in case Kanit doesn't import for some reasson.
+    * Inter font is main font used throughout the ite with sans-serif as its fallback font in case Inter doesn't import for some reasson.
 
  * Wireframes
-    * Pen and paper in a notebook: simple and effective.
+    * Used Figma to create wireframes for the website.
 ---
 
 ## Technologies Used
