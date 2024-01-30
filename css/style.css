@@ -107,19 +107,20 @@ main img {
     position: relative;
     width: 100%;
     height: 100%;
+    background-image: url("/assets/images/beachpicture.jpg");
+    border-radius: 10px;
     
 }
 
- .content::before{
+ /* .content::before{
     content: '';
     position:absolute;
     width: 100%;
     height: 100%;
-    background-image: url("/assets/images/beachpicture.jpg");
     background-size: cover;
     border-radius: 10px;
     z-index: -1;
-}
+} */
 
 .content .cont_box{
     width: 500px;
@@ -298,19 +299,22 @@ div span {
     margin: 50px 15px 0;
 }
 
+.product-grid .button {
+    width: 100%;
+    text-align: center;
+}
+
 .card {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: auto;
-    /* Auto height based on content, or you can set min-height for consistency */
     padding: 15px;
     box-shadow: 5px 5px 20px rgb(201, 201, 201);
     font-weight: 300;
     border-radius: 20px;
     justify-content: space-between;
     overflow: hidden;
-    /* In case content exceeds the set height */
 }
 
 .card img {
@@ -344,10 +348,6 @@ div span {
     text-align: center;
     }
    
-
-
-
-/* Conatact Us Section */
 .contactus{
     width: 95%;
     padding: 50px;
@@ -361,7 +361,6 @@ div span {
     box-shadow: 6 0 0 6 rgba(0, 0, 0, 0.2);
 }
 
-/* Footer */
 footer{
     width: 90%;  
 }
@@ -380,10 +379,8 @@ footer{
     margin-left: 40px;
 }
 
-
-
 @media only screen and (max-width: 700px) {
-.checkbtn {
+    .checkbtn {
         display: block;
         font-size: 2rem;
         margin-top: 10px;
@@ -391,140 +388,131 @@ footer{
         cursor: pointer;
     }
 
-nav ul{
-    display: grid;
-    grid: template columns 1fr;
-    gap: none;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: #FF8C42;
-    top:100px;
-    left: -100%;
-    text-align: center;
-    transition: all .5s;
-    z-index: 99;
-}
+    nav ul {
+        display: grid;
+        grid-template-columns: 1fr;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: #FF8C42;
+        top: 100px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        z-index: 99;
+    }
 
-#check:checked ~ ul{
-    left: 0;
-}
+    #check:checked~ul {
+        left: 0;
+    }
 
-.content .cont_box{
-    width: 100%;
-    color:white;
-}
+    .content .cont_box {
+        width: 100%;
+        color: white;
+    }
 
-.content .cont_box h1{
-    font-size: 300%;
-    font-weight: 800;
-}
+    .content .cont_box h1 {
+        font-size: 300%;
+        font-weight: 800;
+    }
 
-.content .cont_box p{
-    font-size: 150%;
-    font-weight: 300;
-}
+    .content .cont_box p {
+        font-size: 150%;
+        font-weight: 300;
+    }
 
-.content::before{
-    height: 100%;
-}
+    /* .content::before {
+        content: "";
+        height: 100%;
+    } */
 
-.explaintext  {
-width: 100%;
-justify-content: center;
-    
-}
+    .explaintext {
+        width: 100%;
+        text-align: center;
+    }
 
-.explaintext h1{
-font-size: 150%;
-align-content: center;
+    .explaintext h1 {
+        font-size: 150%;
+        text-align: center;
+    }
 
-}
+    .cards-container {
+        display: grid;
+        grid-auto-flow: row;
+        grid-auto-rows: min-content;
+        grid-gap: 10px;
+        margin-top: 50px;
+    }
 
-.cards-container{
-    display:grid;
-    grid-auto-flow: row;
-    grid-auto-rows: min-content;
-  
-}
+    .cards-1{
+        bottom: 0px;
+    }
 
-.cards-1,  .cards-3{
-    width: 100%;
-    margin: 0;
-    
+    .cards-1, .cards-3 {
+        width: 100%;
+        margin: 0;
+    }
 
-}
+    .cards-2, .cards-4 {
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 5px 5px 20px rgb(201, 201, 201);
+        padding: 20px;
+        bottom: 0px;
+    }
 
-.cards-2, .cards-4{
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 5px 5px 20px rgb(201, 201, 201);
-    padding: 20px;
-    
-}
+    .cards-2, .cards-3 {
+        margin-bottom: 10px;
+    }
 
-.cards-2, .cards-3{
-    margin-bottom: 10px;
-}
+    .destination-card {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
 
-.cards-4{
-    margin-bottom: 50px;
-   
-}
+    .inner-text.button {
+        width: 100%;
+    }
 
-.destination-card{
-    display: grid;
-    gap: 2.5rem;
-    grid-template-columns: repeat(1, 1fr); 
-}
+    .progress h3 {
+        padding-left: 0px;
+    }
 
+    .destinations-text {
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+        margin-bottom: 20px;
+    }
 
-.destination-card button {
-    width: 100%;
-}
+    .product-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 
-.progress h3{
-    padding-left: 0;
-}
+    .product-grid .button {
+        width: 100%;
+        text-align: center;
+    }
 
-.destinations-text{
-    width: 95%;
-    padding-right: 0;
-    padding-left: 0;
-    margin-bottom: 20px;
-}
+    .searchbox {
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
+    .searchbox h1 {
+        font-size: 200%;
+    }
 
-.product-grid{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-}
+    .searchbox button {
+        width: 100%;
+    }
 
-.product-grid button {
-    width: 100%;
-}
-
-.searchbox{
-    width: 100%;
-    padding-right: 0;
-    padding-left: 0;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.searchbox h1{
-    font-size: 200%;
-}
-
-
-.searchbox button{
-    width: 100%;
-}
-
-.contactus button{
-    width: 100%;
-
-}
-
-
+    .contactus button {
+        width: 100%;
+    }
 }
