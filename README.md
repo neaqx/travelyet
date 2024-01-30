@@ -78,16 +78,16 @@ Travelyet redefines travel planning with a clear, concise platform, connecting y
     * Hero section, which is unique for landigpage:
         * The home page is comprised of "Explore the world"
         * Subtext, which explain the purpose of the website.
-        * Button, which allows the user to navigate to the explore Bali page.
+        * Button, which allows the user to navigate to the "Explore Bali" page.
         
 
 ![Main heading](/assets/images/hero-section.png)
 
-* Section one, Dreams and info
-    * This section contains a short heading followed by images.
-    * It gives us a brief description of what we can accomplish through this website.
+* Section one, Information and Service Grid
+    * This section contains a description of services.
+    * It gives us a brief description of what the user can expect form travelyet.
 
-![Dreams and Info](/assets/images/section-one.PNG)
+![Service and Info Grid](assets/images/information-and-service-grid.png)
 
 * Section two, 'How is it possible?'
     * Information about commercial rocket.
