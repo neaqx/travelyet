@@ -2,7 +2,7 @@
 
 /* Asterisk wildcard selector to override default styles added by the browser*/
 *{
-    /* margin: 5px; */
+
     padding: 0;
     box-sizing: border-box; 
     
@@ -26,7 +26,7 @@ font-family: 'Inter', sans-serif;
     transition: .3s linear;
 }
 
-button:hover {
+.button:hover {
     background-color: #FF8C42;
     border: #FF8C42;
     transition: .3s linear;
@@ -91,8 +91,6 @@ header nav ul li a:hover {
     width: auto;
 }
 
-/* Main Content */
-
 main {
     width: 95%;
     height: 100%;
@@ -111,16 +109,6 @@ main img {
     border-radius: 10px;
     
 }
-
- /* .content::before{
-    content: '';
-    position:absolute;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    border-radius: 10px;
-    z-index: -1;
-} */
 
 .content .cont_box{
     width: 500px;
@@ -186,7 +174,7 @@ main img {
     margin-bottom: 20px;
 }
 
-/* Services Cards */
+
 .cards-container{
     display: grid;
     grid-auto-flow: column;
@@ -237,8 +225,6 @@ main img {
     margin-bottom: 8px;
 }
 
-
-/* Destinations Card */
 div span {
     height: 30px;
     width: 30px;
@@ -420,12 +406,6 @@ footer{
         font-size: 150%;
         font-weight: 300;
     }
-
-    /* .content::before {
-        content: "";
-        height: 100%;
-    } */
-
     .explaintext {
         width: 100%;
         text-align: center;

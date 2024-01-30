@@ -1,20 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&display=swap');
 
-/* Asterisk wildcard selector to override default styles added by the browser*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
     font-family: 'Inter', sans-serif;
 }
 
-button {
+.button {
     background-color: #6359FF;
-    width: 40%;
+    text-decoration: none;
+    width: 100%;
     padding: 10px 20px;
     border-radius: 10px;
     border: none;
@@ -25,18 +24,17 @@ button {
     transition: .3s linear;
 }
 
-button:hover {
+.button:hover {
     background-color: #FF8C42;
-    border: #FF8C42;
+    border: none;
+    /* Corrected */
     transition: .3s linear;
     transform: translateY(-5px);
 }
 
-/* Header Element with Logo and a Navbar */
 header {
     width: 95%;
     height: 95%;
-    margin-bottom: 0;
     margin: auto;
 }
 
@@ -45,7 +43,6 @@ header nav {
     width: 100%;
     margin-top: 20px;
 }
-
 
 header nav ul {
     float: right;
@@ -56,14 +53,12 @@ header nav ul li {
     display: inline-block;
     line-height: 70px;
     margin: 0 15px;
-
 }
 
 header nav ul li a {
     text-decoration: none;
     color: black;
     font-size: 15px;
-    margin-bottom: 40px;
 }
 
 .checkbtn {
@@ -89,52 +84,45 @@ header nav ul li a:hover {
     margin-left: 5px;
 }
 
-nav label::before{
+nav label::before {
     display: none;
 }
 
-/* Photo-Text */
-.title-bali{
+.title-bali {
     margin: 50px;
 }
 
-
-
-/* Picture Gallery */
-.container{
+.container {
     width: 100%;
     margin-inline: auto;
     padding-inline: 2rem;
 }
 
-.grid-col-span-2{
+.grid-col-span-2 {
     grid-column: span 2;
-}   
+}
 
-.photo-gallery{
+.photo-gallery {
     display: grid;
-    grid-template-columns:repeat(4, 3fr);
+    grid-template-columns: repeat(4, 3fr);
     gap: 10px;
     margin: 0 10px;
 }
 
-
-.photo img{
+.photo img {
     max-width: 100%;
     height: auto;
     border-radius: 20px;
 }
 
-
-/* Accordion Chart */
-.accordion-container{
+.accordion-container {
     display: grid;
     grid-template-columns: 3fr 1fr;
     width: 90%;
     gap: 0;
 }
 
-.booking-container{ 
+.booking-container {
     margin-top: 60px;
     padding: 30px;
     width: 100%;
@@ -142,30 +130,30 @@ nav label::before{
     box-shadow: 5px 5px 20px rgb(201, 201, 201);
 }
 
-.booking-container h3{
+.booking-container .button {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.booking-container h3 {
     margin-bottom: 20px;
     font-size: 20px;
     font-weight: 800;
 }
 
-.booking-container p{
+.booking-container p {
     margin-bottom: 20px;
     font-size: 15px;
     font-weight: 300;
 }
 
-.booking-container button{
-    width: 100%;
-    margin-top: 20px;
-}
-
-.accordion{
+.accordion {
     margin-top: 60px;
-    margin-left: 50px; 
+    margin-left: 50px;
     width: 90%;
 }
 
-.accordion li{
+.accordion li {
     list-style: none;
     width: 100%;
     padding: 10px;
@@ -174,74 +162,68 @@ nav label::before{
     box-shadow: 5px 5px 20px rgb(201, 201, 201);
 }
 
-.accordion li label{
+.accordion li label {
     display: flex;
     align-items: center;
     padding: 10px;
     cursor: pointer;
 }
 
-label::before{
+label::before {
     content: '+';
     margin-right: 10px;
     font-size: 24px;
-    font-weight:600;
+    font-weight: 600;
 }
 
-label:hover{
-    color:#FF8C42;
+label:hover {
+    color: #FF8C42;
 }
 
-
-input[type="radio"]{
+input[type="radio"] {
     display: none;
 }
 
-.accordion .content{
+.accordion .content {
     color: black;
     padding: 0 10px;
     line-height: 26px;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.5s, 
-    padding 0.5s;
+    transition: max-height 0.5s, padding 0.5s;
 }
 
-.accordion input[type="radio"]:checked + label + .content{
+.accordion input[type="radio"]:checked+label+.content {
     max-height: 400px;
-    padding:10px 10px 20px;
+    padding: 10px 10px 20px;
 }
 
-
-
-/* Comment Sections */
-.comment-section{
+.comment-section {
     width: 90%;
     margin: 70px;
 }
 
-.comment-headline h2{
+.comment-headline h2 {
     color: #6359FF;
-    padding-bottom:30px;
+    padding-bottom: 30px;
 }
 
-
-.testimonials-box-container{
+.testimonials-box-container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width:100%;
+    width: 100%;
 }
 
-.testimonial-box{
+.testimonial-box {
     width: 500px;
     padding: 20px;
     margin: 15px;
     cursor: pointer;
 }
 
-.profile img{
+.profile img {
     width: 50px;
     height: 50px;
     border-radius: 100%;
@@ -250,12 +232,12 @@ input[type="radio"]{
     margin-top: 10px;
 }
 
-.profile{
+.profile {
     display: flex;
     align-items: center;
 }
 
-.name-user{
+.name-user {
     display: flex;
     flex-direction: column;
 }
@@ -263,7 +245,7 @@ input[type="radio"]{
 .name-user strong {
     color: black;
     font-size: 1.2rem;
-    letter-spacing: .5px
+    letter-spacing: .5px;
 }
 
 .name-user span {
@@ -272,20 +254,17 @@ input[type="radio"]{
     letter-spacing: .5px;
 }
 
-.reviews{
-    color:#f9d71c;
+.reviews {
+    color: #f9d71c;
 }
 
-.box-top{
+.box-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
-
 }
 
-
-/* Offer Section */
 .product-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -312,35 +291,31 @@ input[type="radio"]{
     margin-bottom: 20px;
 }
 
-.card button{
+.card .button {
     width: 90%;
-    margin-top: 20px;
 }
-
 
 footer {
     width: 90%;
-    margin-bottom: 50px;
 }
 
 .footer-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .footer-items a {
     color: black;
     font-size: 150%;
     justify-content: space-between;
+    padding-left: 30px;
     margin-left: 150px;
-    margin-top: 50px;
 }
 
-/* Mobile Design */
-
 @media only screen and (max-width: 700px) {
-.checkbtn {
+    .checkbtn {
         display: block;
         font-size: 2rem;
         margin-top: 10px;
@@ -389,42 +364,51 @@ footer {
         padding-bottom: 20px;
     }
 
-    .photo-gallery{
+    .footer-container {
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+    }
+
+    .footer-items a {
+        color: black;
+        font-size: 150%;
+        justify-content: space-between;
+        padding-left: 30px;
+        margin-left: 40px;
+    }
+
+    .photo-gallery {
         display: grid;
-        grid-template-columns:1fr 1fr;;
+        grid-template-columns: 1fr 1fr;
+        ;
         gap: 10px;
     }
 
-     .accordion-container {
-            display: grid;
-            grid-template-columns:1fr;
-            width: 90%;
-            gap: 0;
-        }
+    .accordion-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 90%;
+        gap: 0;
+    }
 
-    .booking-container{
+    .booking-container {
         margin-left: 30px;
         width: 100%;
     }
 
-    .comment-section{
+    .comment-section {
         text-align: center;
         margin: 55px auto;
-
     }
 
     .product-grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    width: 70%;
-    padding: 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 80%;
+        padding: 0;
     }
-
-    .product-grid button {
-    width: 100%;
-    margin: 0;
-    margin-top: 30px;
-    }
-
-
 }
+
+
+
