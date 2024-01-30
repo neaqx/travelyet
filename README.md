@@ -264,6 +264,9 @@ By forking the repository, we make a copy of the original repository on our GitH
 ### Code
  * Understanding the concept of flexbox was learned through [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
  * The README template was helpfully provided by [Code Institute (template)](https://github.com/Code-Institute-Solutions/SampleREADME)
+ * Use dfferent tutorials on Youtube 
+    * Kevin Powell (https://www.youtube.com/watch?v=rg7Fvvl3taU&t=1376s&ab_channel=KevinPowell)
+    * Slaying the Dragon (https://www.youtube.com/watch?v=phWxA89Dy94&ab_channel=SlayingTheDragon)
 
 ### Content
 
@@ -275,7 +278,7 @@ By forking the repository, we make a copy of the original repository on our GitH
  * [Pexels](https://www.pexels.com/) free stock photos, royalty free images.
  * [Pixabay](https://pixabay.com/) free stock photos, royalty free images.
  * [Pixlr](https://pixlr.com/) Resizing images.
- * 
+ * [Unsplash](https://unsplash.com/de) Resizing images.
 ---
 
 ## Acknowledgements
