@@ -2,7 +2,7 @@
 
 The concept underlying travelyet is to create a platform that provides a precise overview of the trendiest and other prominent travel destinations. In today's world, individuals seek rapid insights into travel opportunities. The issue that Travelyet.com aims to address is the overwhelming inundation of information pertaining to diverse travel destinations, structured and presented with precision. Through the website, users can educate themselves about the travel destination. Via experience blogs, tips and tricks blogs, or even reviews about the travel destination, users can swiftly and accurately inform themselves. The platform also collaborates with an affiliate program. travelyet offers the opportunity to book travel directly through the partner, Booking.com. Users can book a trip directly after they have educated themselves. The customization of the travel experience is possible.
 
-In the future, Travelyet.com intends to introduce an Ambassador Program, where users can enroll. In this program, users can monetize their experiences and generate income. They can present and monetize their experiences through blogs or vlogs.
+In the future, travelyet.com intends to introduce an Ambassador Program, where users can enroll. In this program, users can monetize their experiences and generate income. They can present and monetize their experiences through blogs or vlogs.
 
 In the near future, an e-commerce function is also set to be implemented. In addition to the service, physical products will be offered for sale.
 
@@ -89,31 +89,29 @@ Travelyet redefines travel planning with a clear, concise platform, connecting y
 
 ![Service and Info Grid](assets/images/information-and-service-grid.png)
 
-* Section two, 'How is it possible?'
-    * Information about commercial rocket.
-    * Link to the Sign Up form page to apply for a lucky draw.
+* Section two, process of booking
+    * This section is valuable to the user as it gives them an easy understanding of the process of booking a vacation.
 
-![How is it possible?](/assets/images/section-two.PNG)
+![Booking process]()
 
-* About Lunar Escape
-    * This section will allow users to get information about the Lunar Escape Company.
-    * Opportunity to join the company because they are always looking for talented people.
-    * Address and contact number.
+* About destination cards
+    * This section is valuable to the user as it gives them an easy understanding of the destination.
+    * It is designed in a card format to allow the user to easily navigate through the destinations.
 
-![About Lunar Escape](/assets/images/section-three.PNG)
+![Destination cards](assets/images/destination-cards.png)
 
-* Footer
-    * Links to the social media for Lunar Escape will open in a new tab to allow easy navigation for the user.
-    * It is valuable to the user as it gives them an easy contact option via social media.
-    * Hold copyright information about the author. 
+* Booking.com partner section
+    * User get the oppurtunity to book a trip directly after they have educated themselves.
+    * The customization of the travel experience is possible.
+    * Booking.com is a partner of travelyet.com. 
 
-![Footer](/assets/images/footer-image.PNG)
+![Booking partner](assets/images/booking-offers-element.png)
 
-* Gallery 
+* Contact section 
     * The gallery will provide the user with supporting images to see shuttle launches, flights, and astronauts.
     * This section is valuable to the user as they will see our previous flights and astronauts on the Moon.
 
-![Gallery](/assets/images/gallery-image.PNG)
+![Contact section](assets/images/contact-section.png)
 
 * The Sign Up page
     * This page will allow users to choose a package, sign up for it, and win a trip to the moon in a lucky draw.
