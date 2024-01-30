@@ -12,8 +12,9 @@ body{
 font-family: 'Inter', sans-serif;
 }
 
-button {
+.button {
     background-color: #6359FF;
+    text-decoration: none;
     width: 40%;
     padding: 10px 20px;
     border-radius: 10px;
@@ -225,7 +226,7 @@ main img {
     bottom: -100px;
 }
 
-.fa-circle-info, .fa-file-circle-check, .fa-phone, .fa-route {
+.fa-info-circle, .fa-check-circle, .fa-phone, .fa-map-signs {
     color: #6359FF
 }
 
@@ -289,46 +290,49 @@ div span {
 
 
 /* Destinations-text */
-.destinations-text {
-    width: 100%;
-    height: 50%;
-    padding-right: 100px;
-    padding-left: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-}
-
-
-
-/* Offer Cards */
-.product-grid{
-    display:grid;
+.product-grid {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
-    align-items: center;
-    margin-left: 15px;
-    margin-right: 15px; 
-    margin-top: 50px;    
+    align-items: start;
+    margin: 50px 15px 0;
 }
 
-.card{
+.card {
+    display: flex;
+    flex-direction: column;
     width: 100%;
+    height: auto;
+    /* Auto height based on content, or you can set min-height for consistency */
     padding: 15px;
-    justify-content: center;
     box-shadow: 5px 5px 20px rgb(201, 201, 201);
     font-weight: 300;
     border-radius: 20px;
+    justify-content: space-between;
+    overflow: hidden;
+    /* In case content exceeds the set height */
 }
 
-.card img{
+.card img {
     width: 100%;
     aspect-ratio: 5/2;
     object-fit: cover;
     border-radius: 10px;
-    margin-bottom: 20px;   
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+.card img {
+    width: 100%;
+    aspect-ratio: 5/2;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 /* Search Box Booking.com */
