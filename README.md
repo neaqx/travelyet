@@ -1,4 +1,4 @@
-# Lunar Escape
+# travelyet.com
 
 The concept underlying travelyet is to create a platform that provides a precise overview of the trendiest and other prominent travel destinations. In today's world, individuals seek rapid insights into travel opportunities. The issue that Travelyet.com aims to address is the overwhelming inundation of information pertaining to diverse travel destinations, structured and presented with precision. Through the website, users can educate themselves about the travel destination. Via experience blogs, tips and tricks blogs, or even reviews about the travel destination, users can swiftly and accurately inform themselves. The platform also collaborates with an affiliate program. travelyet offers the opportunity to book travel directly through the partner, Booking.com. Users can book a trip directly after they have educated themselves. The customization of the travel experience is possible.
 
@@ -11,9 +11,9 @@ The target audience for travelyet is diverse. Anyone with an interest in travel 
 The design strategy is to create a modern and simplistic website, aiming to provide a straightforward and expedient user experience. The website should not appear cluttered, allowing users to navigate quickly and effortlessly.
 
 
-![Am I Responsive](/assets/images/am-i-responsive.PNG)
+![Am I Responsive](assets/images/am-i-responsive.png)
 
-[View Lunar Escape live project here](https://thomas-tomo.github.io/Lunar-Escape/)
+[View Lunar Escape live project here]()
 - - -
 ## Table of Contents
 
