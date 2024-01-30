@@ -13,7 +13,7 @@ The design strategy is to create a modern and simplistic website, aiming to prov
 
 ![Am I Responsive](assets/images/am-i-responsive.png)
 
-[View Lunar Escape live project here](https://neaqx.github.io/travelyet/)
+[View travelyet.com live project here](https://neaqx.github.io/travelyet/)
 - - -
 ## Table of Contents
 
