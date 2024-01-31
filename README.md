@@ -79,7 +79,7 @@ Travelyet redefines travel planning with a clear, concise platform, connecting y
         * Button, which allows the user to navigate to the "Explore Bali" page.
         
 
-![Main heading](/assets/images/hero-section.png)
+![Main heading](/assets/images/header-hero-picture.png)
 
 * Section one, Information and Service Grid
     * This section contains a description of services.
