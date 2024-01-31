@@ -68,7 +68,6 @@ Travelyet redefines travel planning with a clear, concise platform, connecting y
     * It is featured and fixed on all three pages and the form-received page.
     * Includes links to the logo, home page, explore Bali, and contact page.
     * It is identical in design across the pages.
-    * Allows easy navigation from page to page without having to revert back to the previous page via the "back" button.
 
 ![Navigation](assets/images/navbar.png)
 
