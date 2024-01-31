@@ -269,7 +269,7 @@ By forking the repository, we make a copy of the original repository on our GitH
 ### Content
 
  * All content was written by the developer.
- * [Color contrast checker](https://coolors.co/contrast-checker/112a46-acc8e5) was used to decide which colors would be used for the website.
+
 
 ### Media 
 
