@@ -391,6 +391,7 @@ footer {
         display: grid;
         grid-template-columns: 1fr;
         width: 90%;
+        height: fit-content;
         gap: 0;
     }
 
