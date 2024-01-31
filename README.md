@@ -11,7 +11,7 @@ The target audience for travelyet is diverse. Anyone with an interest in travel 
 The design strategy is to create a modern and simplistic website, aiming to provide a straightforward and expedient user experience. The website should not appear cluttered, allowing users to navigate quickly and effortlessly.
 
 
-![Am I Responsive](assets/images/am-i-responsive.png)
+![Am I Responsive](assets/images/am-i-responsive-picture.png)
 
 [View travelyet.com live project here](https://neaqx.github.io/travelyet/)
 - - -
@@ -260,7 +260,6 @@ By forking the repository, we make a copy of the original repository on our GitH
 ## Credits
 
 ### Code
- * Understanding the concept of flexbox was learned through [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
  * The README template was helpfully provided by [Code Institute (template)](https://github.com/Code-Institute-Solutions/SampleREADME)
  * Use dfferent tutorials on Youtube 
     * Kevin Powell (https://www.youtube.com/watch?v=rg7Fvvl3taU&t=1376s&ab_channel=KevinPowell)
@@ -274,8 +273,6 @@ By forking the repository, we make a copy of the original repository on our GitH
 ### Media 
 
  * [Pexels](https://www.pexels.com/) free stock photos, royalty free images.
- * [Pixabay](https://pixabay.com/) free stock photos, royalty free images.
- * [Pixlr](https://pixlr.com/) Resizing images.
  * [Unsplash](https://unsplash.com/de) Resizing images.
 ---
 
